@@ -4,11 +4,11 @@
     /* font-weight: bold; */
     color: white;
     display: block;
-    height: 100px;
+    /* height: 100px; */
     width: auto;
     background-color: red;
     margin: 10px;
-    padding: 10px;
+    padding: 20px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
 }
@@ -58,4 +58,10 @@ button{
     font-size: 20px;
     font-weight: bold;
 
+}
+
+.forimage{
+
+    width: 500px;
+    
 }

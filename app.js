@@ -40,13 +40,17 @@ let foo = ()=>{
             let article = document.createTextNode(element.content)
             let newHeading = "<q>" + element.title + "</q>"
             let newArticle = "<blockquote>" + element.content + "<blockquote>"
+            let newImage = document.createElement('img')
+            newImage.src = element.urlToImage
             // span1.appendChild(newHeading)
             span1.innerHTML = newHeading
             // para.appendChild(article)
             para.innerHTML = newArticle
             span1.className = 'heading';
             para.className = 'content';
+            newImage.className = 'forimage'
             div1.appendChild(span1)
+            div1.appendChild(newImage)
             div1.appendChild(para)
             maindiv.appendChild(div1)
             console.log(newHeading)
